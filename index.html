@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Reevo</title>
+    <script src="https://pixijs.download/v5.3.10/pixi.min.js"></script>
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <div>
+          <span id="shapeCount"></span>
+          <label for="shapeCount">shapes</label>
+        </div>
+        <div>
+          <span id="surfaceArea"></span>
+          <label for="surfaceArea">px^2 occupied by shapes</label>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="card">
+          <div>
+            <button id="decreaseShapesPerSecond">-</button>
+            <span id="shapesPerSecond"></span>
+            <button id="increaseShapesPerSecond">+</button>
+          </div>
+          <label for="shapesPerSecond">NUMBER OF SHAPES PER SECOND</label>
+        </div>
+        <div class="card">
+          <div>
+            <button id="decreaseGravity">-</button>
+            <span id="gravity"></span>
+            <button id="increaseGravity">+</button>
+          </div>
+          <label for="gravity">GRAVITY VALUE</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

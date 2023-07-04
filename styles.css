@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/shapes.png");
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.info div {
+  margin-right: 10px;
+}
+.game {
+  display: flex;
+  align-items: center;
+}
+.game canvas {
+  border-radius: 20px;
+}
+.controls {
+  display: flex;
+}
+.controls div {
+  margin: 5px 25px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #229405;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+button:hover,
+button:active {
+  background-color: #641e03;
+  border-color: #229405;
+}
